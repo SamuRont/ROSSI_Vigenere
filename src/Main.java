@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Scrivi una frase andicappato.");
+        System.out.println("Scrivi una frase:");
         String frase = sc.nextLine();
 
         String frase2 = frase.toUpperCase();
